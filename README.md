@@ -1,16 +1,24 @@
-## Hi there 👋
+```c
+typedef struct {
+    const char* name;
+    const char* email;
+    const char* website;
+} About;
 
-<!--
-**lima6xcn/lima6xcn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+typedef struct {
+    About about;
+    const char* languages[2];
+    const char* tech[8];
+} Developer;
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Developer developer = {
+    .about = {
+        .name = "Gabriel Lima",
+        .email = "gabriel@firewavestudios.com",
+        .website = "https://trenbankai.com/"
+    },
+    .languages = {"Java", "Kotlin", "C#", "C", "C++", "PHP", "TS/JS", "HTML/CSS"},
+    .tech = {"Godot", "VSCode", "Zed", "Visual Studio", "IntelliJ IDEA", "Rider"}
+};
+```
+If you want to see [my serious projects and my main profile](https://github.com/gabriel-aplok?tab=repositories).
