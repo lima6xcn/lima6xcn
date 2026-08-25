@@ -13,12 +13,11 @@ typedef struct {
 
 Developer developer = {
     .about = {
-        .name = "Gabriel Lima",
+        .name = "Gabriel",
         .email = "gabriel@firewavestudios.com",
         .website = "https://trenbankai.com/"
     },
     .languages = {"Java", "Kotlin", "C#", "C", "C++", "PHP", "TS/JS", "HTML/CSS"},
-    .tech = {"Godot", "VSCode", "Zed", "Visual Studio", "IntelliJ IDEA", "Rider"}
+    .tech = {"Godot", "Raylib", "SDL", "OpenGL", "D3D11", "Vulkan", "Minecraft Modidng", "Backend"}
 };
 ```
-If you want to see [my serious projects and my main profile](https://github.com/gabriel-aplok?tab=repositories).
