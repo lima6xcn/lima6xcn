@@ -14,10 +14,10 @@ typedef struct {
 Developer developer = {
     .about = {
         .name = "Gabriel",
-        .email = "gabriel@firewavestudios.com",
-        .website = "https://trenbankai.com/"
+        .email = "contact@trenbankai.dev",
+        .website = "https://trenbankai.dev/"
     },
-    .languages = {"Java", "Kotlin", "C#", "C", "C++", "PHP", "TS/JS", "HTML/CSS"},
-    .tech = {"Godot", "Raylib", "SDL", "OpenGL", "D3D11", "Vulkan", "Minecraft Modidng", "Backend"}
+    .languages = {"Java", "Kotlin", "C#", "C", "C++", "PHP", "Web Stack"},
+    .tech = {"Graphics Programming", "Web", "Android", "Multiplatform", "Minecraft Modidng", "Backend"}
 };
 ```
